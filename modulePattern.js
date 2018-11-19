@@ -39,10 +39,6 @@ const Human = function (name) {
   this.name = name
 }
 
-Human.prototype.toString = function nameToString() {
-  return this.name
-}
-
 Human.prototype.hasFeelings = {
     'anger': "I'm angry!",
     'happy': "I'm happy!",
